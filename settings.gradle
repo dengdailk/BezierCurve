@@ -1,0 +1,6 @@
+rootProject.name='BezierCurve'
+include ':app'
+include ':code1_bezier'
+include ':lib_base'
+include ':code2_pathmeasure'
+include ':code3_animation'

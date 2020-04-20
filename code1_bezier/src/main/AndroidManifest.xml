@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.study.bezier">
+
+    <application>
+        <activity android:name=".ui.HeartActivity" />
+        <activity android:name=".ui.StickDotActivity" />
+        <activity android:name=".ui.DIYBezierActivity" />
+        <activity android:name=".ui.CircleActivity" />
+        <activity android:name=".ui.ClientActivity" />
+        <activity android:name=".ui.BezierActivity" />
+    </application>
+
+</manifest>

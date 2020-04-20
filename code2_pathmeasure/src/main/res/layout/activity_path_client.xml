@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".ui.PathMeasureClientActivity">
+
+     <Button
+        android:id="@+id/bt_arrow"
+        style="@style/button"
+        android:text="实战——旋转的小箭头" />
+
+    <Button
+        android:id="@+id/loading"
+        style="@style/button"
+        android:text="实战——粘性loading" />
+
+    <Button
+        android:id="@+id/boat"
+        style="@style/button"
+        android:text="实战——乘风破浪的小船" />
+
+</LinearLayout>

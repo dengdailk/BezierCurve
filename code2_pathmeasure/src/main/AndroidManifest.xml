@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.study.pathmeasure">
+
+    <application>
+        <activity android:name=".ui.CommonActivity" />
+        <activity android:name=".ui.PlaneLoadingActivity" />
+        <activity android:name=".ui.GetSegmentActivity" />
+        <activity android:name=".ui.BoatLoadingActivity" />
+        <activity android:name=".ui.PathMeasureClientActivity" />
+    </application>
+
+</manifest>

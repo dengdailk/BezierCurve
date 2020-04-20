@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/code1_bezier"
+        style="@style/button"
+        android:text="1.贝塞尔曲线"/>
+    <Button
+        android:id="@+id/code2_path_measure"
+        style="@style/button"
+        android:text="2、PathMeasure"/>
+    <Button
+        android:id="@+id/code3_anim"
+        style="@style/button"
+        android:text="3、属性动画"/>
+    <Button
+        android:id="@+id/code4_xfermode"
+        style="@style/button"
+        android:text="4、Xfermode"/>
+    <Button
+        android:id="@+id/code5_scroller_velocityTracker"
+        style="@style/button"
+        android:text="5、Scroller 和 VelocityTracker"/>
+    <Button
+        android:id="@+id/code6_draw_flow"
+        style="@style/button"
+        android:text="6、绘制流程"/>
+    <Button
+        android:id="@+id/code7_svg"
+        style="@style/button"
+        android:text="7、svg 使用"/>
+    <Button
+        android:id="@+id/code8_canvas_clip"
+        style="@style/button"
+        android:text="8-1、canvas的裁剪师"/>
+    <Button
+        android:id="@+id/code8_canvas_draw"
+        style="@style/button"
+        android:text="8-2、canvas的绘图师"/>
+    <Button
+        android:id="@+id/code8_canvas_text"
+        style="@style/button"
+        android:text="8-3、canvas的书法家"/>
+</LinearLayout>
+
+
+</ScrollView>
